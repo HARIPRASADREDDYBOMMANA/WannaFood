@@ -11,7 +11,6 @@ public class Wallet extends BaseClass{
 	 By wonna_Amount=By.id("com.ongo.wanafood:id/tv_crashWallet");
 	 By referCode=By.id("com.ongo.wanafood:id/refercodetv");
 	 
-	 
 	 public void wallet_Amount_Verify() throws Exception {
 		 try {
 			click(sideMenu);
