@@ -10,7 +10,8 @@ public class Wallet extends BaseClass{
 	 By wallet_Amount=By.id("com.ongo.wanafood:id/tv_walletCash");
 	 By wonna_Amount=By.id("com.ongo.wanafood:id/tv_crashWallet");
 	 By referCode=By.id("com.ongo.wanafood:id/refercodetv");
-	 
+	 By debit_Amount_Val=By.id("com.ongo.wanafood:id/tvReferalAmount");
+	 By credit_Val=By.id("com.ongo.wanafood:id/tvReferalAmount");
 	 
 	 
 	 
@@ -36,12 +37,49 @@ public class Wallet extends BaseClass{
 		 
 	 }
 	 public void refer_validation() throws Exception {
-		 gettextfromapp(referCode);
-		 System.out.println(text22);
-		 if(text22.equalsIgnoreCase("WANN4507")) {
-			 System.out.println("Pass");
-		 }
-		readData.addStepDetails("refer_validation", "Should be the Expected Refercode", "As Per Expected", "Pass", "Y");
+		 try {
+			gettextfromapp(referCode);
+			 System.out.println(text22);
+			 if(text22.equalsIgnoreCase("WANN4507")) {
+				 System.out.println("Pass");
+			 }
+			readData.addStepDetails("refer_validation", "Should be the Expected Refercode", "Not As Per Expected", "Pass", "Y");
+		} catch (Exception e) {
+			readData.addStepDetails("refer_validation", "Should be the Expected Refercode", "Not As Per Expected", "Fail", "Y");
+
+		}
+	 }
+	 
+	 public void userWallet_Debit_Val() throws Exception {
+		 try {
+			gettextfromapp(debit_Amount_Val);
+			 System.out.println(text22);
+			 if(text22.equalsIgnoreCase("- 60.0")) {
+				 System.out.println("Pass");
+			 }
+				readData.addStepDetails("userWallet_Debit_Val", "Should be the Expected Debit Amount", "As Per Expected", "Pass", "Y");
+		} catch (Exception e) {
+			readData.addStepDetails("userWallet_Debit_Val", "Should be the Expected Debit Amount", "Not As Per Expected", "Fail", "Y");
+
+		}
+
+	 }
+	 
+	 public void credit_Val() throws Exception {
+		 try {
+			scrollup();
+			gettextfromapp(credit_Val);
+			 System.out.println(text22);
+			 if(text22.equalsIgnoreCase("+ 100.0")) {
+				 System.out.println("Pass");
+			 }
+			readData.addStepDetails("credit_Val", "Should be the Expected Credit Amount", "As Per Expected", "Pass", "Y");
+		} catch (Exception e) {
+			readData.addStepDetails("credit_Val", "Should be the Expected Credit Amount", "Not As Per Expected", "Fail", "Y");
+
+		}
+
+		 
 	 }
    
  
