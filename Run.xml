@@ -20,7 +20,10 @@
   </class>
    <class name="script.PlaceOrderScript">
   </class>
-  
+  <class name="script.WalletScript">
+  </class>
+   <class name="script.ReferFunctionalityScript">
+  </class>
 
 </classes>
 </test>
