@@ -22,9 +22,12 @@
   </class>
   <class name="script.WalletScript">
   </class>
-   <class name="script.ReferFunctionalityScript">
+   <class name="script.RefereFunctionalityScript">
   </class>
-
+  <class name="script.AlertsScript">
+  </class>
+ <class name="script.PrivacyPolicyScript">
+  </class>
 </classes>
 </test>
 </suite>

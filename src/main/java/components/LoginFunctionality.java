@@ -32,6 +32,7 @@ public class LoginFunctionality extends BaseClass {
 			scrollup();
 			type(password_Enter, readData.testDataValue.get("Password"));
 			click(signIn_Button);
+			Thread.sleep(3000);
 			click(logOut_Security);
 			//Thread.sleep(3000);
 			click(sideMenu);

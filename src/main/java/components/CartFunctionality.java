@@ -23,8 +23,8 @@ public class CartFunctionality extends BaseClass {
 	By coupon_Confirm=By.id("com.ongo.wanafood:id/submit_applycpn");
 	By coupon_Discount_Val=By.id("com.ongo.wanafood:id/disCoupon");
 	By wallet_Apply_Box=By.id("com.ongo.wanafood:id/checkBox1");
-	By wallet_Pop_Val=By.id("com.ongo.wanafood:id/tvWalletDesc");
-	By wallet_Amount_Confirm=By.id("com.ongo.wanafood:id/tvSubmitWallet");
+	By wallet_Pop_Val=By.id("com.ongo.wanafood:id/tvWalletamountzero");
+	By wallet_Amount_Confirm=By.id("com.ongo.wanafood:id/tvWalletOk");
 	By wallet_Val=By.id("com.ongo.wanafood:id/tvWalletPrice");
 	By sideMenu=By.id("com.ongo.wanafood:id/imgHam");
 	By home_Link=By.id("com.ongo.wanafood:id/design_menu_item_text");
@@ -121,17 +121,17 @@ public class CartFunctionality extends BaseClass {
 			click(wallet_Apply_Box);
 			gettextfromapp(wallet_Pop_Val);
 			System.out.println(text22);
-			Assert.assertEquals(text22, "₹ 10.0 amount debited from your Wallet!");
+			Assert.assertEquals(text22, " Please refer your friends to get rewards to your wallet");
 			click(wallet_Amount_Confirm);
 			gettextfromapp(coupon_Discount_Val);
 			System.out.println(text22);
 			Assert.assertEquals(text22, "0");
 			gettextfromapp(wallet_Val);
 			System.out.println(text22);
-			Assert.assertEquals(text22, "10.0");
+			Assert.assertEquals(text22, "0");
 			gettextfromapp(payble_Amount);
 			System.out.println(text22);
-			Assert.assertEquals(text22, "290.0");
+			Assert.assertEquals(text22, "300.0");
 			readData.addStepDetails("walletAmount_Apply", "Should apply Wallet Discount Properly", "As per expected", "Pass", "N");
 
 		} catch (Exception e) {

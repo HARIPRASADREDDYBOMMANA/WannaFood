@@ -75,6 +75,7 @@ public class AddressSelectionFunctionality extends BaseClass {
 			if(text22.equalsIgnoreCase("8-3-318/6/B/13/14, Ali Nagar, Sai Sarathi Nagar, Padala Ramareddy Colony, Yella Reddy Guda, Hyderabad, Telangana 500073, India")) {
 				System.out.println("Pass");
 			}
+		
 			readData.addStepDetails("select_Address", "Address Select Fubctionality should work properly", "As per Expected", "Pass", "Y");
 		} catch (Exception e) {
 			readData.addStepDetails("select_Address", "Address Select Fubctionality should work properly", "Not As per Expected", "Fail", "Y");

@@ -1,92 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="16" total="25" passed="9">
+<testng-results skipped="0" failed="0" ignored="24" total="37" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="WonnaFoodCustomerMobileAppResults" duration-ms="412728" started-at="2019-12-10T16:40:36 IST" finished-at="2019-12-10T16:47:28 IST">
+  <suite name="WonnaFoodCustomerMobileAppResults" duration-ms="426042" started-at="2019-12-12T17:41:07 IST" finished-at="2019-12-12T17:48:13 IST">
     <groups>
     </groups>
-    <test name="WonnaFoodCustomeriMobileApp" duration-ms="412728" started-at="2019-12-10T16:40:36 IST" finished-at="2019-12-10T16:47:28 IST">
-      <class name="script.PlaceOrderScript">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.PlaceOrderScript@42d8062c]" name="BeforeClass" is-config="true" duration-ms="3002" started-at="2019-12-10T16:45:55 IST" finished-at="2019-12-10T16:45:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:script.PlaceOrderScript@42d8062c]" name="f" duration-ms="90476" started-at="2019-12-10T16:45:58 IST" description="Verifying the Place Order Functionality" finished-at="2019-12-10T16:47:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.PlaceOrderScript@42d8062c]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-10T16:45:58 IST" finished-at="2019-12-10T16:45:58 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.PlaceOrderScript.f() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureDesc -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.PlaceOrderScript@42d8062c]" name="afterClass" is-config="true" duration-ms="2" started-at="2019-12-10T16:47:28 IST" finished-at="2019-12-10T16:47:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- script.PlaceOrderScript -->
-      <class name="script.MerchantViewScript">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.MerchantViewScript@60285225]" name="BeforeClass" is-config="true" duration-ms="3003" started-at="2019-12-10T16:43:56 IST" finished-at="2019-12-10T16:43:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.MerchantViewScript@60285225]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-10T16:43:59 IST" finished-at="2019-12-10T16:43:59 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.MerchantViewScript.f() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureDesc -->
-        <test-method status="PASS" signature="f()[pri:0, instance:script.MerchantViewScript@60285225]" name="f" duration-ms="35219" started-at="2019-12-10T16:43:59 IST" description="Verifying the Merchant View Functionality" finished-at="2019-12-10T16:44:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.MerchantViewScript@60285225]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-10T16:44:34 IST" finished-at="2019-12-10T16:44:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- script.MerchantViewScript -->
-      <class name="script.CartScript">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.CartScript@7113b13f]" name="BeforeClass" is-config="true" duration-ms="3002" started-at="2019-12-10T16:44:34 IST" finished-at="2019-12-10T16:44:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.CartScript@7113b13f]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-10T16:44:37 IST" finished-at="2019-12-10T16:44:37 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void script.CartScript.f() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureDesc -->
-        <test-method status="PASS" signature="f()[pri:0, instance:script.CartScript@7113b13f]" name="f" duration-ms="39956" started-at="2019-12-10T16:44:37 IST" description="Verifying the Cart Functionality" finished-at="2019-12-10T16:45:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.CartScript@7113b13f]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-10T16:45:17 IST" finished-at="2019-12-10T16:45:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- script.CartScript -->
+    <test name="WonnaFoodCustomeriMobileApp" duration-ms="426042" started-at="2019-12-12T17:41:07 IST" finished-at="2019-12-12T17:48:13 IST">
       <class name="script.LoginScript">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.LoginScript@7ce6a65d]" name="BeforeClass" is-config="true" duration-ms="3002" started-at="2019-12-10T16:41:31 IST" finished-at="2019-12-10T16:41:34 IST">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.LoginScript@60285225]" name="BeforeClass" is-config="true" duration-ms="3030" started-at="2019-12-12T17:41:51 IST" finished-at="2019-12-12T17:41:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.LoginScript@7ce6a65d]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-10T16:41:34 IST" finished-at="2019-12-10T16:41:34 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:script.LoginScript@60285225]" name="f" duration-ms="61453" started-at="2019-12-12T17:41:54 IST" description="Verifying Login Functionality" finished-at="2019-12-12T17:42:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.LoginScript@60285225]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:41:54 IST" finished-at="2019-12-12T17:41:54 IST">
           <params>
             <param index="0">
               <value>
@@ -97,21 +26,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureDesc -->
-        <test-method status="PASS" signature="f()[pri:0, instance:script.LoginScript@7ce6a65d]" name="f" duration-ms="60981" started-at="2019-12-10T16:41:34 IST" description="Verifying Login Functionality" finished-at="2019-12-10T16:42:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.LoginScript@7ce6a65d]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-10T16:42:35 IST" finished-at="2019-12-10T16:42:35 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.LoginScript@60285225]" name="afterClass" is-config="true" duration-ms="2" started-at="2019-12-12T17:42:55 IST" finished-at="2019-12-12T17:42:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- script.LoginScript -->
-      <class name="script.SearchScript">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.SearchScript@29b5cd00]" name="BeforeClass" is-config="true" duration-ms="3001" started-at="2019-12-10T16:43:40 IST" finished-at="2019-12-10T16:43:43 IST">
+      <class name="script.WalletScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.WalletScript@25af5db5]" name="BeforeClass" is-config="true" duration-ms="3003" started-at="2019-12-12T17:46:50 IST" finished-at="2019-12-12T17:46:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.SearchScript@29b5cd00]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-10T16:43:43 IST" finished-at="2019-12-10T16:43:43 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:script.WalletScript@25af5db5]" name="f" duration-ms="10945" started-at="2019-12-12T17:46:53 IST" description="Verify the Wallet Functionality" finished-at="2019-12-12T17:47:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.WalletScript@25af5db5]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:46:53 IST" finished-at="2019-12-12T17:46:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.WalletScript.f() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureDesc -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.WalletScript@25af5db5]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-12-12T17:47:04 IST" finished-at="2019-12-12T17:47:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- script.WalletScript -->
+      <class name="script.SearchScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.SearchScript@42d8062c]" name="BeforeClass" is-config="true" duration-ms="3014" started-at="2019-12-12T17:44:00 IST" finished-at="2019-12-12T17:44:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.SearchScript@42d8062c]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-12T17:44:03 IST" finished-at="2019-12-12T17:44:03 IST">
           <params>
             <param index="0">
               <value>
@@ -122,46 +72,146 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureDesc -->
-        <test-method status="PASS" signature="f()[pri:0, instance:script.SearchScript@29b5cd00]" name="f" duration-ms="12037" started-at="2019-12-10T16:43:43 IST" description="Verifying the Search Functionality" finished-at="2019-12-10T16:43:56 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:script.SearchScript@42d8062c]" name="f" duration-ms="11123" started-at="2019-12-12T17:44:03 IST" description="Verifying the Search Functionality" finished-at="2019-12-12T17:44:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.SearchScript@29b5cd00]" name="afterClass" is-config="true" duration-ms="5" started-at="2019-12-10T16:43:56 IST" finished-at="2019-12-10T16:43:56 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.SearchScript@42d8062c]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-12-12T17:44:14 IST" finished-at="2019-12-12T17:44:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- script.SearchScript -->
-      <class name="script.ProfileFunctionalityScript">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.ProfileFunctionalityScript@1500955a]" name="BeforeClass" is-config="true" duration-ms="3003" started-at="2019-12-10T16:42:35 IST" finished-at="2019-12-10T16:42:38 IST">
+      <class name="script.PlaceOrderScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.PlaceOrderScript@5bfbf16f]" name="BeforeClass" is-config="true" duration-ms="3002" started-at="2019-12-12T17:45:53 IST" finished-at="2019-12-12T17:45:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.ProfileFunctionalityScript@1500955a]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-10T16:42:38 IST" finished-at="2019-12-10T16:42:38 IST">
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.PlaceOrderScript@5bfbf16f]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-12T17:45:56 IST" finished-at="2019-12-12T17:45:56 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void script.ProfileFunctionalityScript.f() throws java.lang.Exception]]>
+                <![CDATA[public void script.PlaceOrderScript.f() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureDesc -->
-        <test-method status="PASS" signature="f()[pri:0, instance:script.ProfileFunctionalityScript@1500955a]" name="f" duration-ms="39901" started-at="2019-12-10T16:42:38 IST" description="Verifying the Profile Functionality" finished-at="2019-12-10T16:43:18 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:script.PlaceOrderScript@5bfbf16f]" name="f" duration-ms="54079" started-at="2019-12-12T17:45:56 IST" description="Verifying the Place Order Functionality" finished-at="2019-12-12T17:46:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.ProfileFunctionalityScript@1500955a]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-10T16:43:18 IST" finished-at="2019-12-10T16:43:18 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.PlaceOrderScript@5bfbf16f]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-12T17:46:50 IST" finished-at="2019-12-12T17:46:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- script.ProfileFunctionalityScript -->
-      <class name="script.HomePageScript">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.HomePageScript@e874448]" name="BeforeClass" is-config="true" duration-ms="3002" started-at="2019-12-10T16:43:18 IST" finished-at="2019-12-10T16:43:21 IST">
+      </class> <!-- script.PlaceOrderScript -->
+      <class name="script.MerchantViewScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.MerchantViewScript@6043cd28]" name="BeforeClass" is-config="true" duration-ms="3002" started-at="2019-12-12T17:44:14 IST" finished-at="2019-12-12T17:44:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.HomePageScript@e874448]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-10T16:43:21 IST" finished-at="2019-12-10T16:43:21 IST">
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.MerchantViewScript@6043cd28]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:44:17 IST" finished-at="2019-12-12T17:44:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.MerchantViewScript.f() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureDesc -->
+        <test-method status="PASS" signature="f()[pri:0, instance:script.MerchantViewScript@6043cd28]" name="f" duration-ms="15145" started-at="2019-12-12T17:44:17 IST" description="Verifying the Merchant View Functionality" finished-at="2019-12-12T17:44:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.MerchantViewScript@6043cd28]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-12T17:44:32 IST" finished-at="2019-12-12T17:44:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- script.MerchantViewScript -->
+      <class name="script.CartScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.CartScript@cb51256]" name="BeforeClass" is-config="true" duration-ms="3001" started-at="2019-12-12T17:44:32 IST" finished-at="2019-12-12T17:44:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.CartScript@cb51256]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:44:35 IST" finished-at="2019-12-12T17:44:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.CartScript.f() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureDesc -->
+        <test-method status="PASS" signature="f()[pri:0, instance:script.CartScript@cb51256]" name="f" duration-ms="40385" started-at="2019-12-12T17:44:35 IST" description="Verifying the Cart Functionality" finished-at="2019-12-12T17:45:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.CartScript@cb51256]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-12-12T17:45:15 IST" finished-at="2019-12-12T17:45:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- script.CartScript -->
+      <class name="script.AlertsScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.AlertsScript@5bcea91b]" name="BeforeClass" is-config="true" duration-ms="3001" started-at="2019-12-12T17:47:09 IST" finished-at="2019-12-12T17:47:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.AlertsScript@5bcea91b]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-12T17:47:12 IST" finished-at="2019-12-12T17:47:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.AlertsScript.f() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureDesc -->
+        <test-method status="PASS" signature="f()[pri:0, instance:script.AlertsScript@5bcea91b]" name="f" duration-ms="14075" started-at="2019-12-12T17:47:12 IST" description="Verifying the Alerts Functionality" finished-at="2019-12-12T17:47:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.AlertsScript@5bcea91b]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-12T17:47:26 IST" finished-at="2019-12-12T17:47:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- script.AlertsScript -->
+      <class name="script.RefereFunctionalityScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.RefereFunctionalityScript@12cdcf4]" name="BeforeClass" is-config="true" duration-ms="3002" started-at="2019-12-12T17:47:04 IST" finished-at="2019-12-12T17:47:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.RefereFunctionalityScript@12cdcf4]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:47:07 IST" finished-at="2019-12-12T17:47:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.RefereFunctionalityScript.f() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureDesc -->
+        <test-method status="PASS" signature="f()[pri:0, instance:script.RefereFunctionalityScript@12cdcf4]" name="f" duration-ms="1885" started-at="2019-12-12T17:47:07 IST" description="Verifying the Refer Functionality" finished-at="2019-12-12T17:47:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.RefereFunctionalityScript@12cdcf4]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-12-12T17:47:09 IST" finished-at="2019-12-12T17:47:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- script.RefereFunctionalityScript -->
+      <class name="script.HomePageScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.HomePageScript@45820e51]" name="BeforeClass" is-config="true" duration-ms="3006" started-at="2019-12-12T17:43:38 IST" finished-at="2019-12-12T17:43:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.HomePageScript@45820e51]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:43:41 IST" finished-at="2019-12-12T17:43:41 IST">
           <params>
             <param index="0">
               <value>
@@ -172,32 +222,82 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureDesc -->
-        <test-method status="PASS" signature="f()[pri:0, instance:script.HomePageScript@e874448]" name="f" duration-ms="19067" started-at="2019-12-10T16:43:21 IST" description="Verifying the Home Page Functionality" finished-at="2019-12-10T16:43:40 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:script.HomePageScript@45820e51]" name="f" duration-ms="18957" started-at="2019-12-12T17:43:41 IST" description="Verifying the Home Page Functionality" finished-at="2019-12-12T17:44:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.HomePageScript@e874448]" name="afterClass" is-config="true" duration-ms="7" started-at="2019-12-10T16:43:40 IST" finished-at="2019-12-10T16:43:40 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.HomePageScript@45820e51]" name="afterClass" is-config="true" duration-ms="3" started-at="2019-12-12T17:44:00 IST" finished-at="2019-12-12T17:44:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- script.HomePageScript -->
-      <class name="script.Nav_Intro_Script">
-        <test-method status="PASS" signature="setUpSuiteDetails(org.testng.ITestContext)[pri:0, instance:script.Nav_Intro_Script@4abdb505]" name="setUpSuiteDetails" is-config="true" duration-ms="97" started-at="2019-12-10T16:40:36 IST" finished-at="2019-12-10T16:40:36 IST">
+      <class name="script.ProfileFunctionalityScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.ProfileFunctionalityScript@7113b13f]" name="BeforeClass" is-config="true" duration-ms="3013" started-at="2019-12-12T17:42:55 IST" finished-at="2019-12-12T17:42:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.ProfileFunctionalityScript@7113b13f]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:42:58 IST" finished-at="2019-12-12T17:42:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1816e24a]]>
+                <![CDATA[public void script.ProfileFunctionalityScript.f() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureDesc -->
+        <test-method status="PASS" signature="f()[pri:0, instance:script.ProfileFunctionalityScript@7113b13f]" name="f" duration-ms="39469" started-at="2019-12-12T17:42:58 IST" description="Verifying the Profile Functionality" finished-at="2019-12-12T17:43:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.ProfileFunctionalityScript@7113b13f]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-12T17:43:38 IST" finished-at="2019-12-12T17:43:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- script.ProfileFunctionalityScript -->
+      <class name="script.PrivacyPolicyScript">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.PrivacyPolicyScript@5f3a4b84]" name="BeforeClass" is-config="true" duration-ms="3002" started-at="2019-12-12T17:47:26 IST" finished-at="2019-12-12T17:47:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.PrivacyPolicyScript@5f3a4b84]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:47:29 IST" finished-at="2019-12-12T17:47:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.PrivacyPolicyScript.f() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureDesc -->
+        <test-method status="PASS" signature="f()[pri:0, instance:script.PrivacyPolicyScript@5f3a4b84]" name="f" duration-ms="43441" started-at="2019-12-12T17:47:29 IST" description="Verifying the PrivacyPolicy Script Functionality" finished-at="2019-12-12T17:48:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.PrivacyPolicyScript@5f3a4b84]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-12T17:48:13 IST" finished-at="2019-12-12T17:48:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- script.PrivacyPolicyScript -->
+      <class name="script.Nav_Intro_Script">
+        <test-method status="PASS" signature="setUpSuiteDetails(org.testng.ITestContext)[pri:0, instance:script.Nav_Intro_Script@29b5cd00]" name="setUpSuiteDetails" is-config="true" duration-ms="94" started-at="2019-12-12T17:41:07 IST" finished-at="2019-12-12T17:41:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c2fb9dd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuiteDetails -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.Nav_Intro_Script@4abdb505]" name="BeforeClass" is-config="true" duration-ms="3002" started-at="2019-12-10T16:40:36 IST" finished-at="2019-12-10T16:40:39 IST">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.Nav_Intro_Script@29b5cd00]" name="BeforeClass" is-config="true" duration-ms="3035" started-at="2019-12-12T17:41:07 IST" finished-at="2019-12-12T17:41:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.Nav_Intro_Script@4abdb505]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-10T16:40:39 IST" finished-at="2019-12-10T16:40:39 IST">
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.Nav_Intro_Script@29b5cd00]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:41:10 IST" finished-at="2019-12-12T17:41:10 IST">
           <params>
             <param index="0">
               <value>
@@ -208,25 +308,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureDesc -->
-        <test-method status="PASS" signature="f()[pri:0, instance:script.Nav_Intro_Script@4abdb505]" name="f" duration-ms="52565" started-at="2019-12-10T16:40:39 IST" description="Verifying Intro screens Functionality" finished-at="2019-12-10T16:41:31 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:script.Nav_Intro_Script@29b5cd00]" name="f" duration-ms="41015" started-at="2019-12-12T17:41:10 IST" description="Verifying Intro screens Functionality" finished-at="2019-12-12T17:41:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.Nav_Intro_Script@4abdb505]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-10T16:41:31 IST" finished-at="2019-12-10T16:41:31 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.Nav_Intro_Script@29b5cd00]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-12-12T17:41:51 IST" finished-at="2019-12-12T17:41:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:script.Nav_Intro_Script@4abdb505]" name="afterSuite" is-config="true" duration-ms="20" started-at="2019-12-10T16:47:29 IST" finished-at="2019-12-10T16:47:29 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:script.Nav_Intro_Script@29b5cd00]" name="afterSuite" is-config="true" duration-ms="15" started-at="2019-12-12T17:48:13 IST" finished-at="2019-12-12T17:48:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- script.Nav_Intro_Script -->
       <class name="script.AddressScript">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.AddressScript@45820e51]" name="BeforeClass" is-config="true" duration-ms="3001" started-at="2019-12-10T16:45:17 IST" finished-at="2019-12-10T16:45:20 IST">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:script.AddressScript@59906517]" name="BeforeClass" is-config="true" duration-ms="3001" started-at="2019-12-12T17:45:15 IST" finished-at="2019-12-12T17:45:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.AddressScript@45820e51]" name="captureDesc" is-config="true" duration-ms="1" started-at="2019-12-10T16:45:20 IST" finished-at="2019-12-10T16:45:20 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:script.AddressScript@59906517]" name="f" duration-ms="34803" started-at="2019-12-12T17:45:18 IST" description="Address Selection Functionality" finished-at="2019-12-12T17:45:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="captureDesc(java.lang.reflect.Method)[pri:0, instance:script.AddressScript@59906517]" name="captureDesc" is-config="true" duration-ms="0" started-at="2019-12-12T17:45:18 IST" finished-at="2019-12-12T17:45:18 IST">
           <params>
             <param index="0">
               <value>
@@ -237,11 +341,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureDesc -->
-        <test-method status="PASS" signature="f()[pri:0, instance:script.AddressScript@45820e51]" name="f" duration-ms="35298" started-at="2019-12-10T16:45:20 IST" description="Address Selection Functionality" finished-at="2019-12-10T16:45:55 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.AddressScript@45820e51]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-12-10T16:45:55 IST" finished-at="2019-12-10T16:45:55 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:script.AddressScript@59906517]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-12-12T17:45:53 IST" finished-at="2019-12-12T17:45:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
