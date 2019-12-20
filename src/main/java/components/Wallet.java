@@ -45,7 +45,7 @@ public class Wallet extends BaseClass{
 			 if(text22.equalsIgnoreCase("WANN4507")) {
 				 System.out.println("Pass");
 			 }
-			readData.addStepDetails("refer_validation", "Should be the Expected Refercode", "Not As Per Expected", "Pass", "Y");
+			readData.addStepDetails("refer_validation", "Should be the Expected Refercode", "As Per Expected", "Pass", "Y");
 		} catch (Exception e) {
 			readData.addStepDetails("refer_validation", "Should be the Expected Refercode", "Not As Per Expected", "Fail", "Y");
 
@@ -57,6 +57,7 @@ public class Wallet extends BaseClass{
 			gettextfromapp(debit_Amount_Val);
 			 System.out.println(text22);
 			 if(text22.equalsIgnoreCase("- 60.0")) {
+				 
 				 System.out.println("Pass");
 			 }
 				readData.addStepDetails("userWallet_Debit_Val", "Should be the Expected Debit Amount", "As Per Expected", "Pass", "Y");

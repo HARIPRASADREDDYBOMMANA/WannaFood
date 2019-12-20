@@ -3,6 +3,36 @@
 <suite name="Failed suite [WonnaFoodCustomerMobileAppResults]">
   <test thread-count="5" name="WonnaFoodCustomeriMobileApp(failed)">
     <classes>
+      <class name="script.PlaceOrderScript">
+        <methods>
+          <include name="f"/>
+          <include name="setUpSuiteDetails"/>
+          <include name="BeforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="captureDesc"/>
+        </methods>
+      </class> <!-- script.PlaceOrderScript -->
+      <class name="script.AlertsScript">
+        <methods>
+          <include name="setUpSuiteDetails"/>
+          <include name="BeforeClass"/>
+          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="captureDesc"/>
+        </methods>
+      </class> <!-- script.AlertsScript -->
+      <class name="script.MerchantViewScript">
+        <methods>
+          <include name="setUpSuiteDetails"/>
+          <include name="BeforeClass"/>
+          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="captureDesc"/>
+        </methods>
+      </class> <!-- script.MerchantViewScript -->
       <class name="script.CartScript">
         <methods>
           <include name="f"/>
@@ -13,6 +43,36 @@
           <include name="captureDesc"/>
         </methods>
       </class> <!-- script.CartScript -->
+      <class name="script.WalletScript">
+        <methods>
+          <include name="setUpSuiteDetails"/>
+          <include name="BeforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="captureDesc"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- script.WalletScript -->
+      <class name="script.AddressScript">
+        <methods>
+          <include name="setUpSuiteDetails"/>
+          <include name="BeforeClass"/>
+          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="captureDesc"/>
+        </methods>
+      </class> <!-- script.AddressScript -->
+      <class name="script.RefereFunctionalityScript">
+        <methods>
+          <include name="BeforeClass"/>
+          <include name="setUpSuiteDetails"/>
+          <include name="afterClass"/>
+          <include name="f"/>
+          <include name="afterSuite"/>
+          <include name="captureDesc"/>
+        </methods>
+      </class> <!-- script.RefereFunctionalityScript -->
     </classes>
   </test> <!-- WonnaFoodCustomeriMobileApp(failed) -->
 </suite> <!-- Failed suite [WonnaFoodCustomerMobileAppResults] -->

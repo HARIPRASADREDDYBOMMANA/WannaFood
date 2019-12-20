@@ -26,8 +26,9 @@
   </class>
   <class name="script.AlertsScript">
   </class>
- <class name="script.PrivacyPolicyScript">
-  </class>
-</classes>
+<!--  <class name="script.PrivacyPolicyScript">
+  </class> -->
+</classes> 
+
 </test>
 </suite>

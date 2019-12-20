@@ -90,6 +90,7 @@ public class PlaceOrder extends BaseClass {
 		if(text22.equalsIgnoreCase("₹313.0")) {
 			System.out.println(text22+":Pass");
 		}
+		scrollup();
 		gettextfromapp(delivery_Address_Val);
 		System.out.println(text22);
 		
@@ -97,7 +98,7 @@ public class PlaceOrder extends BaseClass {
 				System.out.println(text22+":Pass");
 			}
 			
-			readData.addStepDetails("placeOrder_Val", "all the details should be validate", "As per expected", "Pass", "N");
+			readData.addStepDetails("placeOrder_Val", "all the details should be validate", "As per expected", "Pass", "Y");
 	} catch (Exception e) {
 		readData.addStepDetails("placeOrder_Val", "all the details should be validate", "Not As per expected", "Fail", "Y");
 

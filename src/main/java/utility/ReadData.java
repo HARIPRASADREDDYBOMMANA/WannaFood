@@ -619,48 +619,48 @@ import org.aspectj.weaver.Iterators.Getter;
 				}
 			}
 			
-			String str9=workbook.getSheetName(9); 
-			//System.out.println(str2+"customer loginS");
-			if(str9.equalsIgnoreCase("PlaceOrder"))
-			{
-				worksheet=workbook.getSheet(str9);
-				Row Headertrow = worksheet.getRow(0);
-				System.out.println(Headertrow.getCell(0)+"+++++");
-				int totalrows = worksheet.getLastRowNum()-worksheet.getFirstRowNum();
-				int startValue=Integer.parseInt(tcID);
-				int endValue=totalrows; 
-				System.out.println(startValue);
-				System.out.println(endValue);
-				for(int i=startValue; i<=endValue;i++){
-					Row currentrow = worksheet.getRow(i);
-					System.out.println(currentrow.getCell(0)+"+++++");
-					int columns=currentrow.getLastCellNum();
-					// if(currentrow.getCell(1).getStringCellValue().equalsIgnoreCase(BaseClass.tcno)){ 
-					for (int k= 0; k< columns; k++) { 
-						if(currentrow !=null){
-							Cell cellkey = Headertrow.getCell(k);
-							System.out.println("cellkey "+cellkey); 
-							Cell cellValue = currentrow.getCell(k);
-							System.out.println("cellValue "+cellValue);
-							System.out.println("-----------------------------");
-							if(cellkey.toString() != ""){
-								if(!arrayOfString.contains(cellkey.toString())){
-									arrayOfString.add(cellkey.toString());
-									testData.put(cellkey.toString(), cellValue != null ?  cellValue.toString() : "");
-									testDataValue.put(cellkey.toString(), cellValue != null ?  cellValue.toString() : "");
-								//	System.out.println("cellValue Cell key:"+cellValue != null ?  cellValue.toString() : "");
-								}else{
-									System.out.println("Duplicate Key In Test Data File : "+cellkey.toString());
-									//throw new AutomationException("Duplicate Key In Test Data File : "+cellkey.toString());
-								}
-							}else{
-								System.out.println("Row is empty in Test Data file : "+(i+1));
-							}
-						}
-					}
-					//}
-				}
-			}
+//			String str9=workbook.getSheetName(9); 
+//			//System.out.println(str2+"customer loginS");
+//			if(str9.equalsIgnoreCase("PlaceOrder"))
+//			{
+//				worksheet=workbook.getSheet(str9);
+//				Row Headertrow = worksheet.getRow(0);
+//				System.out.println(Headertrow.getCell(0)+"+++++");
+//				int totalrows = worksheet.getLastRowNum()-worksheet.getFirstRowNum();
+//				int startValue=Integer.parseInt(tcID);
+//				int endValue=totalrows; 
+//				System.out.println(startValue);
+//				System.out.println(endValue);
+//				for(int i=startValue; i<=endValue;i++){
+//					Row currentrow = worksheet.getRow(i);
+//					System.out.println(currentrow.getCell(0)+"+++++");
+//					int columns=currentrow.getLastCellNum();
+//					// if(currentrow.getCell(1).getStringCellValue().equalsIgnoreCase(BaseClass.tcno)){ 
+//					for (int k= 0; k< columns; k++) { 
+//						if(currentrow !=null){
+//							Cell cellkey = Headertrow.getCell(k);
+//							System.out.println("cellkey "+cellkey); 
+//							Cell cellValue = currentrow.getCell(k);
+//							System.out.println("cellValue "+cellValue);
+//							System.out.println("-----------------------------");
+//							if(cellkey.toString() != ""){
+//								if(!arrayOfString.contains(cellkey.toString())){
+//									arrayOfString.add(cellkey.toString());
+//									testData.put(cellkey.toString(), cellValue != null ?  cellValue.toString() : "");
+//									testDataValue.put(cellkey.toString(), cellValue != null ?  cellValue.toString() : "");
+//								//	System.out.println("cellValue Cell key:"+cellValue != null ?  cellValue.toString() : "");
+//								}else{
+//									System.out.println("Duplicate Key In Test Data File : "+cellkey.toString());
+//									//throw new AutomationException("Duplicate Key In Test Data File : "+cellkey.toString());
+//								}
+//							}else{
+//								System.out.println("Row is empty in Test Data file : "+(i+1));
+//							}
+//						}
+//					}
+//					//}
+//				}
+//			}
 		}catch (IOException localIOException){
 			System.out.println("Unable to read test data file : " + s);
 		}
